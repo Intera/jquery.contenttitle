@@ -23,13 +23,14 @@ $("input").contentTitle();
 ```
 
 # Options
-```javascript
+```
 $(selector).contentTitle({
-  optionName: optionValue
+  optionName: optionValue, ...
 })
 ```
 
 |optionName|description|default value|
+----|----|----
 |title_attribute|use this attribute to set the content title|"title"|
 |title|use this text as content title|false|
 |title_selector|selector to get the content title from html element content|false|
