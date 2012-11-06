@@ -7,9 +7,9 @@ Setup input fields\elements that have their title as content.
 
 Additional features:
 - Adds class if title is displayed (for example for displaying the title in different color)
-- Works for input, select, textarea and possibly others
+- Works for input, select, textarea and maybe others
 - Setup multiple elements at once
-- The content title is displayed on hover if the ``title`` is used
+- The content title is displayed on hover by the browser if the ``title`` attribute is used
 
 # Example usage
 Html
@@ -19,7 +19,7 @@ Html
 
 Javascript
 ```javascript
-$("input").contentTitle();
+$("input").contentTitle()
 ```
 
 # Options
@@ -35,3 +35,6 @@ $(selector).contentTitle({
 |title|use this text as content title|false|
 |title_selector|selector to get the content title from html element content|false|
 |title_class|class to be used if the content title is displayed|"contentTitle"|
+
+# License
+GPL version 3 or later

@@ -1,3 +1,4 @@
+/* jquery.contenttitle.src.js 2012-11-6 | https://github.com/jkalbhenn/jquery.contenttitle */
 ;(function () {
 	function getTitleFunc (ele, config) {
 		if (config["title_attribute"]) {
