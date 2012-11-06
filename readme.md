@@ -11,6 +11,9 @@ Additional features:
 - Setup multiple elements at once
 - The content title is displayed on hover by the browser if the ``title`` attribute is used
 
+# Dependencies
+- jQuery
+
 # Example usage
 Html
 ```html
