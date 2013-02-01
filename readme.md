@@ -9,7 +9,7 @@ Much like the HTML5 placeholder functionality - but jQuery powered.
 Additional features:
 - Setup multiple elements at once
 - Adds a class when the title is displayed. For example for displaying the title in a different color.
-- Works for <input>, <select>, <textarea> and maybe others
+- Works for ''<input>'', ''<select>'', ''<textarea>'' and maybe others
 - If the title attribute is used, the browser automatically displays a tooltip for it on hover.
 
 # Dependencies
