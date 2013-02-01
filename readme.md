@@ -4,7 +4,7 @@ Much like the HTML5 placeholder functionality - but jQuery powered.
 
 - If content empty - reset to title
 - If content not empty - leave it untouched
-- If content is title, On focus - empty the field
+- If content is title, on focus - empty the field
 
 Additional features:
 - Setup multiple elements at once
