@@ -1,15 +1,16 @@
 # jquery.contenttitle
 Setup input fields\elements that have their title as content.
+Much like the HTML5 placeholder functionality - but jQuery powered.
 
-- Empty field on click
-- If content null - reset to title
-- If content not null - leave new content untouched
+- If content empty - reset to title
+- If content not empty - leave it untouched
+- If content is title, On focus - empty the field
 
 Additional features:
-- Adds class if title is displayed (for example for displaying the title in different color)
-- Works for input, select, textarea and maybe others
 - Setup multiple elements at once
-- The content title is displayed on hover by the browser if the ``title`` attribute is used
+- Adds a class when the title is displayed. For example for displaying the title in a different color.
+- Works for <input>, <select>, <textarea> and maybe others
+- If the title attribute is used, the browser automatically displays a tooltip for it on hover.
 
 # Dependencies
 - jQuery
@@ -18,6 +19,7 @@ Additional features:
 Html
 ```html
 <input title="search..."/>
+<input title="type here..."/>
 ```
 
 Javascript
