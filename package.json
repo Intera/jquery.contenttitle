@@ -1,0 +1,16 @@
+{
+  "name": "jquery.contenttitle",
+  "version": "1.0.0",
+	"license": "GPL-3.0+",
+  "description": "Setup input fields/elements that have their title as content. Much like the HTML5 placeholder functionality - but jQuery powered",
+  "homepage": "https://github.com/Intera/jquery.contenttitle",
+  "bugs": {
+    "url" : "https://github.com/Intera/jquery.contenttitle/issues",
+    "email" : "jkalbhenn@intera.de"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/Intera/jquery.contenttitle"
+  },
+  "keywords": ["jquery-plugin", "ecosystem:jquery"]
+}
